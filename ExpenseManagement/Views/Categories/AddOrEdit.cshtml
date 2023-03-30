@@ -1,7 +1,7 @@
 ﻿@model ExpenseManagement.Models.Category
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["PageTitle"] = Model.CategoryId==0?"Add a New Category" : "Edit Category";
 }
 
 <div class="row">
