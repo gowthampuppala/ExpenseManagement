@@ -1,7 +1,9 @@
 ﻿@model IEnumerable<ExpenseManagement.Models.Transaction>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["PageTitle"] = "Transactions";
+    ViewData["PageActionText"] = "+ New Transaction";
+    ViewData["PageActionUrl"] = "/Transactions/AddOrEdit";
 }
 <div class="row">
     <div class="col-md-7">
